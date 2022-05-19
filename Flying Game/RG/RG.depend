@@ -1,0 +1,304 @@
+# depslib dependency file v1.0
+1574994244 source:c:\users\pavle\desktop\rg\rg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<rafgl.h>
+	<game_constants.h>
+	<main_state.h>
+
+1563890048 c:\users\pavle\desktop\rg\rg\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1563890048 c:\users\pavle\desktop\rg\rg\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1555370364 c:\users\pavle\desktop\rg\rg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1572238478 c:\users\pavle\desktop\rg\rg\include\rafgl.h
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<rafgl_keys.h>
+	<stb_image.h>
+	<stb_image_write.h>
+
+1569764032 c:\users\pavle\desktop\rg\rg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1569774558 c:\users\pavle\desktop\rg\rg\include\rafgl_keys.h
+
+1571524814 c:\users\pavle\desktop\rg\rg\include\stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1575141774 c:\users\pavle\desktop\rg\rg\include\game_constants.h
+
+1571433954 c:\users\pavle\desktop\rg\rg\include\main_state.h
+	<GLFW/glfw3.h>
+	<rafgl.h>
+
+1563890048 source:c:\users\pavle\desktop\rg\rg\src\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1575141893 source:c:\users\pavle\desktop\rg\rg\src\main_state.c
+	<main_state.h>
+	<glad/glad.h>
+	<math.h>
+	<rafgl.h>
+	<game_constants.h>
+
+1574997844 source:c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<rafgl.h>
+	<game_constants.h>
+	<main_state.h>
+
+1563893648 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1563893648 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1555373964 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1572242078 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\rafgl.h
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<rafgl_keys.h>
+	<stb_image.h>
+	<stb_image_write.h>
+
+1569767632 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1569778158 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\rafgl_keys.h
+
+1571528414 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1575145374 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\game_constants.h
+
+1571437554 c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\include\main_state.h
+	<GLFW/glfw3.h>
+	<rafgl.h>
+
+1563893648 source:c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\src\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1575145493 source:c:\users\acer\desktop\rg19d1 pavle vukovic rn 66 2018\rg\src\main_state.c
+	<main_state.h>
+	<glad/glad.h>
+	<math.h>
+	<rafgl.h>
+	<game_constants.h>
+
+1574997844 source:c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<rafgl.h>
+	<game_constants.h>
+	<main_state.h>
+
+1563893648 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1563893648 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1555373964 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1572242078 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\rafgl.h
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<rafgl_keys.h>
+	<stb_image.h>
+	<stb_image_write.h>
+
+1569767632 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1569778158 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\rafgl_keys.h
+
+1571528414 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1575145374 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\game_constants.h
+
+1571437554 c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\include\main_state.h
+	<GLFW/glfw3.h>
+	<rafgl.h>
+
+1563893648 source:c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\src\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1652496494 source:c:\users\acer\desktop\projektifaks\rg19d1 pavle vukovic rn 66 2018\rg\src\main_state.c
+	<main_state.h>
+	<glad/glad.h>
+	<math.h>
+	<rafgl.h>
+	<game_constants.h>
+
