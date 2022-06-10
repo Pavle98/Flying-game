@@ -302,3 +302,97 @@
 	<rafgl.h>
 	<game_constants.h>
 
+1654877347 source:c:\users\acer\desktop\flying-game\flying game\rg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<rafgl.h>
+	<game_constants.h>
+	<main_state.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\rafgl.h
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<rafgl_keys.h>
+	<stb_image.h>
+	<stb_image_write.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\rafgl_keys.h
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\game_constants.h
+
+1654877347 c:\users\acer\desktop\flying-game\flying game\rg\include\main_state.h
+	<GLFW/glfw3.h>
+	<rafgl.h>
+
+1654877347 source:c:\users\acer\desktop\flying-game\flying game\rg\src\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+

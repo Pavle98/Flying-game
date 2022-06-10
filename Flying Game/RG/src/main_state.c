@@ -100,9 +100,10 @@ void update_bullets(float delta_time)
 
         bullets[i].life--;
 
-        //Ukoliko budes hteo da ga siris tj SKUPLJAS
-       // bullets[i].x += bullets[i].dx;
-        //bullets[i].dx *= 0.5f;
+        /*Ukoliko budes hteo da ga siris tj SKUPLJAS
+        bullets[i].x += bullets[i].dx;
+        bullets[i].dx *= 0.5f;
+        */
         bullets[i].y += bullets[i].dy;
         bullets[i].dy *= 0.995f;
         bullets[i].dy -= 2;
@@ -182,31 +183,35 @@ void main_state_update(GLFWwindow *window, float delta_time, rafgl_game_data_t *
 
  animation_running = 1;
  if(game_data->keys_down[RAFGL_KEY_W] || game_data->keys_down[RAFGL_KEY_S] || game_data->keys_down[RAFGL_KEY_A] || game_data->keys_down[RAFGL_KEY_D] ){
+
     if(game_data->keys_down[RAFGL_KEY_W]){
-            if(camy < -1520)
+            if(airplane_pos_y > 20){
         airplane_pos_y = airplane_pos_y - airplane_speed * delta_time;
+            }
       printf("%d ",  airplane_pos_y);
     }
      if(game_data->keys_down[RAFGL_KEY_S])
     {
         //iz nekog razloga je islo duplo brze w u odnosu na s, kadaa pritisnemo w islo je po 2 piksela, ovde po 1
         //if camy <1520 znaci da ako dodje do donjeg dela rastera da ne pomera avion vise
-        if(camy < 1520){
+        if(airplane_pos_y < 600){
         airplane_pos_y = airplane_pos_y + airplane_speed * delta_time +1;
         }
             printf("%d ",  airplane_pos_y);
-
     }
      if(game_data->keys_down[RAFGL_KEY_A])
     {
          //  printf("%d ",  airplane_pos_x);
-
+             if(airplane_pos_x > 20){
         airplane_pos_x = airplane_pos_x - airplane_speed * delta_time;
+             }
     }
      if(game_data->keys_down[RAFGL_KEY_D])
     {
             //printf("%d ",  airplane_pos_x);
+            if(airplane_pos_x < 600){
         airplane_pos_x = airplane_pos_x + airplane_speed * delta_time + 1;
+    }
 
     }
  }
@@ -229,15 +234,30 @@ void main_state_update(GLFWwindow *window, float delta_time, rafgl_game_data_t *
             hover_frames--;
             // samo pomeranje kamere
             if(game_data->keys_down[RAFGL_KEY_S]){
-                    printf("%d ", camy );
 
+
+            if(camy == 7300){
+                camy = 6500;
+            }
                      camy +=10;
                    }else if(game_data->keys_down[RAFGL_KEY_W]){
-                        printf("%d ", camy );
+
+                        //ako zelimo efekat "zida" samo povecaj camy za tipa 40, da bude 90
+                        if(camy == 50){
+                            camy = 390;
+                            }
                      camy -=10;
                    }else if(game_data->keys_down[RAFGL_KEY_A]){
+
+                        if(camx == 50){
+                            camx = 390;
+                            }
                      camx -=10;
                    }else if(game_data->keys_down[RAFGL_KEY_D]){
+                           if(camx == 7300){
+                                camx = 6500;
+                            }
+
                      camx +=10;
                    }
 
